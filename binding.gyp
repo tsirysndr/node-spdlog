@@ -1,6 +1,7 @@
 {
 	"targets": [{
 		"target_name": "spdlog",
+    "libraries": ["-latomic"],
 		"sources": [
 			"src/main.cc",
 			"src/logger.cc"
